@@ -6,7 +6,7 @@ A set of utils to simplify testing on Django CMS plugins and pages
 
 ### Testing all plugins
 
-```
+```python
 import os
 
 from .base import BaseTestCase
@@ -46,7 +46,7 @@ YAML description.
 
 The page description looks like this:
 
-```
+```yaml
 ---
 # Required page data
 title: Regression Test Page
